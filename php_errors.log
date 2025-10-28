@@ -1,0 +1,46 @@
+[26-May-2025 22:43:51 Europe/Berlin] [2025-05-26 22:43:51] Fatal error occurred
+Exception: Database connection not established
+File: C:\xampp\htdocs\vacuno\finca_report.php:41
+Trace: #0 {main}
+
+[26-May-2025 22:45:06 Europe/Berlin] [2025-05-26 22:45:06] Query executed successfully. Row count: 26
+
+[26-May-2025 22:45:06 Europe/Berlin] [2025-05-26 22:45:06] PDF generation failed
+Exception: Error al guardar el archivo PDF
+File: C:\xampp\htdocs\vacuno\finca_report.php:186
+Trace: #0 {main}
+
+[27-May-2025 18:50:16 Europe/Berlin] [2025-05-27 18:50:16] Starting report generation
+Server Info: Array
+(
+    [DOCUMENT_ROOT] => C:\xampp\htdocs\vacuno
+    [REMOTE_ADDR] => ::1
+    [REMOTE_PORT] => 53225
+    [SERVER_SOFTWARE] => PHP 8.2.12 Development Server
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_NAME] => localhost
+    [SERVER_PORT] => 3000
+    [REQUEST_URI] => /finca_report.php
+    [REQUEST_METHOD] => GET
+    [SCRIPT_NAME] => /finca_report.php
+    [SCRIPT_FILENAME] => C:\xampp\htdocs\vacuno\finca_report.php
+    [PHP_SELF] => /finca_report.php
+    [HTTP_HOST] => localhost:3000
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+    [HTTP_SEC_CH_UA] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+    [HTTP_DNT] => 1
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_ACCEPT] => */*
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => cors
+    [HTTP_SEC_FETCH_DEST] => empty
+    [HTTP_REFERER] => http://localhost:3000/vacuno_indices.php
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9,es;q=0.8
+    [REQUEST_TIME_FLOAT] => 1748364616.3024
+    [REQUEST_TIME] => 1748364616
+)
+
+
